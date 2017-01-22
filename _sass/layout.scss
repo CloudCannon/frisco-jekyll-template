@@ -152,8 +152,8 @@ blockquote:before {
 	width: 200px;
 	height: 200px;
 	border-radius: 200px;
-	background-size:cover;
- 	background-repeat:no-repeat;
+	background-size: fit;
+ 	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
