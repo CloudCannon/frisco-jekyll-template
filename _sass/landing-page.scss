@@ -1,5 +1,5 @@
 .hero {
-	color: #ffffff;
+	color: black;
 	text-align: center;
 	height: 100vh;
 	min-height: 550px;
@@ -10,16 +10,16 @@
 
 	&:before {
 		content: "";
-		background: linear-gradient(to bottom,rgba(0,0,0,.65) 0,rgba(0, 0, 0, 0) 100%);
+		background: black;
 		position: absolute;
 		top: 0;
 		left: 0;
 		right: 0;
-		height: 300px;
+		height: 60px;
 }
 
 	p {
-		color: #fff;
+		color: black;
 	}
 
 	.inner-hero {
@@ -30,6 +30,7 @@
 
 	.hero-text-container {
 		width: 600px;
+		color: black;
 		text-align: left;
 
 		h1, h2, p, .button {
@@ -70,5 +71,80 @@
 
 	.content section:nth-child(even) .flex {
 		flex-direction: row-reverse;
+	}
+}
+
+.image-grid {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-flow: wrap;
+	text-align: center;
+	margin: 0 20px;
+
+	li {
+		padding: 0;
+		box-sizing: border-box;
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+		margin: 10px;
+		border-radius: 5px;
+		text-align: left;
+		border: 1px solid $brand-color;
+		line-height: 0;
+
+		@media #{$tablet} {
+			flex: 1 1 50%;
+		}
+
+		@media #{$desktop} {
+			flex: 1 1 10%;
+		}
+
+		img {
+			min-width: 50%;
+		}
+
+		> a:hover {
+			opacity: 0.9;
+		}
+	}
+
+	.square-image {
+		height: 120px;
+
+		img {
+			min-height: 100%;
+			width: 100%;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translateX(-50%) translateY(-50%);
+		}
+	}
+
+	.details {
+		line-height: 1.2;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(0, 0, 0, 0.5);
+		padding: 20px;
+	}
+
+	.name {
+		font-size: 1.3rem;
+		color: $brand-color;
+	}
+
+	.position {
+		margin-top: 5px;
+		color: #fff;
+	}
+
+	.filler {
+		border: 0;
 	}
 }
