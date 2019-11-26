@@ -10,7 +10,7 @@
 
 .button a:hover, input[type=submit]:hover {
 	background: $brand-color;
-	color: #fff;
+	color: orange;
 	cursor: pointer;
 }
 
@@ -21,8 +21,8 @@
 }
 
 .button.alt a:hover {
-	background: #fff;
-	color: $brand-color;
+	background: orange;
+	color: black;
 	text-shadow: none;
 }
 
