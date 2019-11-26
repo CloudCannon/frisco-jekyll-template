@@ -6,7 +6,7 @@
 	@include flex-flow(wrap);
 	text-align: center;
 	li {
-		padding: 30px 20px;
+		padding: 20px 10px;
 		box-sizing: border-box;
 		width: 100%;
 
@@ -15,7 +15,7 @@
 		}
 
 		@media #{$desktop} {
-			@include flex(1, 1, 33%);
+			@include flex(1, 1, 5%);
 		}
 
 	}

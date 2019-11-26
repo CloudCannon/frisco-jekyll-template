@@ -55,6 +55,16 @@ defaults:
   -
     scope:
       path: ""
+      type: "projects"
+    values:
+      _options:
+        image_path:
+          width: 440
+          height: 440
+          uploads_dir: "/images/staff_members"
+  -
+    scope:
+      path: ""
       type: "staff_members"
     values:
       _options:
