@@ -1,6 +1,5 @@
 .staff {
-	padding: 0;
-	margin: 0;
+  padding: 0 0 100px 0;	margin: 0;
 	list-style: none;
 	@extend %flexbox;
 	@include flex-flow(wrap);
@@ -15,9 +14,13 @@
 		}
 
 		@media #{$desktop} {
-			@include flex(1, 1, 5%);
+			@include flex(1, 1, 1%);
 		}
 
+	}
+
+	img {
+		width: 50%;
 	}
 
 	.name {
@@ -27,5 +30,20 @@
 	.position {
 		color: #666;
 		font-size: .8em;
+	}
+
+	.square-image {
+		width: 100px;
+		background-position: center center;
+    background-repeat: no-repeat;
+
+		img {
+			min-height: 50%;
+			width: 50%;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translateX(-40%) translateY(-50%);
+		}
 	}
 }

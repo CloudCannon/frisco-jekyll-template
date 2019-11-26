@@ -21,7 +21,7 @@ bottom_image: images/mago_bg.jpg
 		<div class="container flex">
 			<div class="text">
 				<h2 class="editable">Who are we?</h2>
-				<p class="editable"><b>magô analytics</b> is a data consulting start-up that aims to empower and enable organizations for social good</p>
+				<p class="editable"><b style = "color: Orange">magô analytics</b> is a data consulting start-up that aims to empower and enable organizations for social good</p>
 			</div>
 			<div class="image">
 				<img class="editable" src="images/group_pic.PNG" alt="Screenshot" />
@@ -43,6 +43,7 @@ bottom_image: images/mago_bg.jpg
 		</div>
 	</section>
 
+<!--
 	<section class="info">
 		<div class="container flex">
 			<div>
@@ -57,17 +58,16 @@ bottom_image: images/mago_bg.jpg
 				</ul>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<section class="pad">
 		<div class="container">
-			<h1> Meet the team!</h1>
-			<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Manage Staff Members</a></p>
+			<h2 style="	text-align: center; "> Meet the <b style = "color: Orange">magô analytics</b> team!</h2>
 			<ul class="staff">
 				{% for person in site.staff_members %}
 					<li>
 						<div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
-						<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter_username }}">{{ person.name }}</a></div>
+						<div class="name"><a target="_blank" href="https://github.com/{{ person.github_username }}"><b>{{ person.name }}</b></a></div>
 						<div class="position">{{ person.position }}</div>
 					</li>
 				{% endfor %}
