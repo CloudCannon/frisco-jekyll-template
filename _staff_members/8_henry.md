@@ -1,7 +1,6 @@
 ---
 name: Henry
-position: 
+position: Technology
 image_path: images/staff/henry.png
 github_username: henrylaynesa
-#blurb: Tom likes to travel and has visited over 50 countries.
 ---

@@ -1,7 +1,6 @@
 ---
 name: Angelie
 position: COO
-image_path: images/staff/angelie.jog
+image_path: images/staff/angelie.jpg
 github_username: maglang
-#blurb: Betty is a bookworm who will typically have four books on the go.
 ---

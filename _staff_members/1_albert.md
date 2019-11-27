@@ -3,5 +3,4 @@ name: Albert
 position: CEO
 image_path: images/staff/albert.jpg
 github_username: albertyumol
-#blurb: Anna likes long walks on the beach and buffet breakfast.
 ---
