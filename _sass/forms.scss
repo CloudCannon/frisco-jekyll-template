@@ -4,7 +4,7 @@
 	border: 2px solid $brand-color;
 	transition: .2s ease-in-out;
 	display: inline-block;
-	padding: 16px 50px;
+	padding: 16px 60px;
 	background: #fff;
 }
 
@@ -15,15 +15,14 @@
 }
 
 .button.alt a {
-	background: black;
-	border: orange;
-	color: orange;
+	background: orange;
+	border: black;
+	color: black;
 }
 
 .button.alt a:hover {
-	background: orange;
-	color: black;
-	text-shadow: none;
+	background: #eb7200;
+	color: white;
 }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
