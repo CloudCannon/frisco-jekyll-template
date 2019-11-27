@@ -36,11 +36,21 @@
 			text-shadow: 1px 1px 1px rgba(0,0,0,.3);
 		}
 
+		p{
+			margin-top: -10px;
+			font-family: 'Sulphur Point', sans-serif;
+
+		}
+
 		h1, h2{
 			font-size: 110px;
 			font-weight:20px;
 			font-family: 'Bebas Neue', cursive;
 			color: orange;
+
+			@media only screen and (max-width: 768px) {
+				font-size: 50px;
+			}
 		}
 
 		.button{
@@ -51,7 +61,12 @@
 
 		p,b{
 			color: orange;
-			font-size: 25px;
+			font-size: 24px;
+
+			@media only screen and (max-width: 768px) {
+				margin-top: 10px;
+				font-size: 20px;
+			}
 		}
 
 	}
