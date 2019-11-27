@@ -8,12 +8,12 @@ bottom_image: images/mago_bg.jpg
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">SEEING BEYOND 360</h1>
-			<p class="subtext editable">Mago Analytics will help you see your data in a different perspective</p>
+			<h1 class="editable">SEEING BEYOND 360°</h1>
+			<b class="subtext editable">Mago Analytics will help you see your data in a different perspective</b>
 			<div class="cta button alt"><a href="#end">Contact us</a></div>
 		</div>
 	</div>
-<div class="learn-more"><a href="#end">Learn more <span class="arrow">&#x25BC;</span></a></div>
+<div class="learn-more"><a href="#learn-more">Learn more <span class="arrow">&#x25BC;</span></a></div>
 </section>
 
 <div class="content">
@@ -21,7 +21,7 @@ bottom_image: images/mago_bg.jpg
 		<div class="container flex">
 			<div class="text">
 				<h2 class="editable">Who are we?</h2>
-				<p class="editable"><b>magô analytics</b> is a data consulting start-up that aims to empower and enable organizations for social good</p>
+				<p class="editable"><b style = "color: Orange">magô analytics</b> is a data consulting start-up that aims to empower and enable organizations for social good</p>
 			</div>
 			<div class="image">
 				<img class="editable" src="images/group_pic.png" alt="Screenshot" />
@@ -43,6 +43,7 @@ bottom_image: images/mago_bg.jpg
 		</div>
 	</section>
 
+<!--
 	<section class="info">
 		<div class="container flex">
 			<div>
@@ -57,17 +58,16 @@ bottom_image: images/mago_bg.jpg
 				</ul>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<section class="pad">
 		<div class="container">
-			<h1> Meet the team!</h1>
-			<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Manage Staff Members</a></p>
+			<h2 style="	text-align: center; "> Meet the <b style = "color: Orange">magô analytics</b> team!</h2>
 			<ul class="staff">
 				{% for person in site.staff_members %}
 					<li>
 						<div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
-						<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter_username }}">{{ person.name }}</a></div>
+						<div class="name"><a target="_blank" href="https://github.com/{{ person.github_username }}"><b>{{ person.name }}</b></a></div>
 						<div class="position">{{ person.position }}</div>
 					</li>
 				{% endfor %}
@@ -78,9 +78,9 @@ bottom_image: images/mago_bg.jpg
 	<section id = "end" class="hero" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
 		<div class="inner-hero text-container">
 			<div class="hero-text-container">
-				<h2 class="editable">Start data science in your company today</h2>
-				<p class="subtext editable">Feel free to consult with us your visions for social good</p>
-				<div class="cta button alt"><a href="#">Join Now</a></div>
+				<h2 class="editable">Let us help you with your visions for social good.</h2>
+				<p class="subtext editable">Contact us at: <b>mago.analytics.mnl@gmail.com</b> </p>
+			<!--	<div class="cta button alt"><a href="#">Join Now</a></div> -->
 			</div>
 		</div>
 	</section>

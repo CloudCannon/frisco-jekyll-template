@@ -29,13 +29,31 @@
 	}
 
 	.hero-text-container {
-		width: 600px;
 		color: black;
 		text-align: left;
 
-		h1, h2, p, .button {
-			text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+		h1, h2, p,b, .button {
+			text-shadow: 1px 1px 1px rgba(0,0,0,.3);
 		}
+
+		h1, h2{
+			font-size: 110px;
+			font-weight:20px;
+			font-family: 'Bebas Neue', cursive;
+			color: orange;
+		}
+
+		.button{
+			font-family: 'Bebas Neue', cursive;
+			color: orange;
+			font-size: 30px;
+		}
+
+		p,b{
+			color: orange;
+			font-size: 25px;
+		}
+
 	}
 
 	.hero-text-right {
@@ -114,14 +132,6 @@
 	.square-image {
 		height: 120px;
 
-		img {
-			min-height: 100%;
-			width: 100%;
-			position: absolute;
-			left: 50%;
-			top: 50%;
-			transform: translateX(-50%) translateY(-50%);
-		}
 	}
 
 	.details {

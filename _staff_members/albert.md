@@ -2,6 +2,6 @@
 name: Albert
 position: CEO
 image_path: images/staff/albert.jpg
-github_username: albertyumol
+#twitter_username: CloudCannon
 #blurb: Anna likes long walks on the beach and buffet breakfast.
 ---
