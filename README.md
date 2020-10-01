@@ -9,7 +9,7 @@ Frisco was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jek
 
 Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
-## Features
+## Features- which will help you
 
 * Contact form
 * Pre-built pages
