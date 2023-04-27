@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Frisco Template
-url: "https://brave-submarine.cloudvent.net"
+title: Mago Analytics
+url: "https://magoanalytics.github.io"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -52,6 +52,16 @@ jekyll-archives:
   enabled: ['categories']
 
 defaults:
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      _options:
+        image_path:
+          width: 440
+          height: 440
+          uploads_dir: "/images/staff_members"
   -
     scope:
       path: ""
