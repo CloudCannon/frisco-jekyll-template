@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem "tzinfo"
+gem "tzinfo-data"
+
+
 gem 'jekyll', '3.8.4'
 
 group :jekyll_plugins do
